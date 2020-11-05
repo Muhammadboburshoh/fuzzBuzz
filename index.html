@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>fuzzBuzz</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Livvic:wght@400;700&display=swap" rel="stylesheet">
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Livvic:wght@400;700&display=swap" rel="stylesheet"> -->
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -21,16 +21,19 @@
     <hr class="mt-5">
 
     <div class="list-group list-group-horizontal">
-      <div class="list-group-item text-body flex-grow-1">
+      <div style="width: 33%;" class="list-group-item overflow-auto">
         <h3>Fizzlar soni <span class="fizz-length">N</span> ta</h3>
+        <p class="fizzs"></p>
       </div>
 
-      <div class="list-group-item text-body flex-grow-1">
+      <div style="width: 33%;" class="list-group-item">
         <h3>Buzz soni <span class="buzz-length">N</span> ta</h3>
+        <p class="buzzs"></p>
       </div>
 
-      <div class="list-group-item text-body flex-grow-1">
+      <div style="width: 33%;" class="list-group-item">
         <h3>FizzBuzzlar soni <span class="fizzbuzz-length">N</span> ta</h3>
+        <p class="fizzbuzzs"></p>
       </div>
     </div>
   </div>

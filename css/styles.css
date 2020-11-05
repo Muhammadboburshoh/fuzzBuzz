@@ -22,3 +22,8 @@ img {
 h1 {
   font-weight: bold;
 }
+
+.list-group .list-group-item .fizzs, .list-group .list-group-item .buzzs, .list-group .list-group-item .fizzbuzzs{
+  word-wrap: break-word;
+
+}
