@@ -25,5 +25,8 @@ h1 {
 
 .list-group .list-group-item .fizzs, .list-group .list-group-item .buzzs, .list-group .list-group-item .fizzbuzzs{
   word-wrap: break-word;
+}
 
+.list-item-wrapper {
+  width: 33%;
 }
