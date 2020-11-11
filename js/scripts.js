@@ -26,6 +26,11 @@ elForm.addEventListener("submit", function (evt) {
     return;
   }
 
+  if (number === "" || isNaN(number)) {
+    alert("Iltimos son kiriting")
+    return;
+  }
+
   for (var i = 1; i <= number; i++) {
   
     if (i % 3 === 0 && i % 5 === 0){
